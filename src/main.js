@@ -3,8 +3,8 @@ import './assets/style/border.css'
 import './assets/style/iconfont.css'
 
 import Vue from 'vue'
-import Router from './router/router.js'
-import State from './router/router.js'
+import router from './router/router.js'
+import state from './router/router.js'
 
 import App from './App.vue'
 
@@ -19,7 +19,7 @@ axios.interceptors.response.use(function (response) {
 Vue.prototype.$axios = axios
 
 new Vue({
-    Router,
-    State,
+    router,
+    state,
     render: h => h(App),
 }).$mount('#app')
