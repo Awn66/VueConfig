@@ -1,4 +1,4 @@
-# VUE-Demo
+# VUE-Config
 
 ## Project setup
 ```
