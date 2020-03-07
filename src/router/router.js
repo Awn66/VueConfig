@@ -5,8 +5,6 @@ Vue.use(VueRouter)
 
 import Index from '@/components/index/index'
 
-
-
 const routes = [
     { path: '/', component: Index }
 ]
